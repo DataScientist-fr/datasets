@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "datasets": {
+    "uber_apr2014": {
+      "source_url": "https://raw.githubusercontent.com/fivethirtyeight/uber-tlc-foil-response/63bb878b76f47f69b4527d50af57aac26dead983/uber-trip-data/uber-raw-data-apr14.csv",
+      "source_kind": "csv",
+      "file": "uber/uber_apr2014.csv",
+      "rows": 564516,
+      "sha256": "4c92b95b9918e73ae84bade0bffef6e758e792c247469523130d3c1ad7b646e0",
+      "bytes": 26110064,
+      "source_bytes": 26110064,
+      "source_sha256": "4c92b95b9918e73ae84bade0bffef6e758e792c247469523130d3c1ad7b646e0"
+    },
+    "green_taxi_2025_01": {
+      "source_url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-01.parquet",
+      "source_kind": "parquet",
+      "file": "nyc_trips/green_taxi_2025_01.csv",
+      "rows": 48326,
+      "sha256": "f41c401107da518dfaf2c7dd86a72ada11a9c3229eeb6fac272615d26b1d4a8e",
+      "bytes": 2943997,
+      "source_bytes": 1178451,
+      "source_sha256": "84f3a121667157efcbf012c3566a6065df6f8e0312c678cb2f29cd72cc9c0f10"
+    }
+  }
+}
